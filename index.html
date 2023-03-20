@@ -5,12 +5,29 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
     <title>titolo</title>
 </head>
 <body>
-    <header>
+    <header class="bg-blu">
         <nav>
-
+            <div class="display-flex justify-space-bt align-item-center padding-05 ">
+                <!-- logo -->
+                <div class="logo">
+                    <img src="./img/logo.png" alt="logo" class="">
+                </div>
+                <!-- vari link scompaiono sotto i 480px-->
+                <div class="display-none justify-space-bt" id="nav-link">
+                    <a href="">Planning</a>
+                    <a href="">Testimonials</a>
+                    <a href="">Features</a>
+                    <a href="">About us</a>
+                    <button>Get started</button>
+                </div>
+                <div class="padding-05" id="hamburger">
+                    <i class="fa-solid fa-bars" ></i>
+                </div>    
+            </div>
         </nav>
     </header>
     <main>
