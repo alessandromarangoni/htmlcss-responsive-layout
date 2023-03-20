@@ -158,13 +158,21 @@ nav{
         width:calc(100% / 3); 
         padding: 1rem;
     }
-
 }
 
+/* section 2 */
 
+@media screen and (min-width:1160px){
+    .sec-2-row{
+        display: flex;
+    }
 
-
-
+    .sec-2-right{
+        width: 50%;
+        height: 50%;
+            align-self: end;
+    }
+}
 
 
 
