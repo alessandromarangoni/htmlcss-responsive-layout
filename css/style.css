@@ -30,6 +30,7 @@ body{
 /* margini */
 .margin-0-auto{margin: 0 auto;}
 .margin-auto{margin: auto;}
+.margin-top1{margin-top: 1rem;}
 
 .text-align-center{text-align: center;}
 
@@ -146,7 +147,7 @@ nav a{
 .cards{
     border-radius: 20px;
 }
-/*  sec 1tablet */
+/*  sec 1 tablet */
 @media screen and (min-width:768px) and (max-width:1160px){
 
     .col-container{
@@ -175,7 +176,7 @@ nav a{
     }
 
 }
-/* desktop */
+/*  sec 1 desktop */
 @media screen and (min-width:1160px){
 
     .col-container{
@@ -233,6 +234,7 @@ nav a{
     padding:1.5rem 1.6rem;
     border-radius: 50%;
 }
+/* tablet */
 @media screen and (min-width:1160px){
     .sec-2-row{
         width: 60%;
@@ -252,7 +254,7 @@ nav a{
         width: 60%;
     }
 }
-
+/* desktop */
 @media screen and (min-width:1160px){
 
     .sec-3-container{
@@ -269,6 +271,7 @@ nav a{
         align-self: end;
     }
 }
+/* sec 3 */
 .sec-3-container h2{
     color: #9792e4;
 }
@@ -312,7 +315,7 @@ sec-3-container span{
     line-height: 1.5rem;
 }
 
-
+/* tablet  */
 @media screen and (min-width:768px){
     .sec-3-row{
         flex-direction: row;
@@ -323,7 +326,7 @@ sec-3-container span{
         text-align: start;
     }
 }
-
+/* desktop */
 @media screen and (min-width:1160px){
     .sec-3-container .violetto{
         width: 100%;
@@ -364,7 +367,7 @@ sec-3-container span{
     border-radius: 30px;
 }
 
-
+/* tablet */
 @media screen and (min-width:768px){
 
     .sec-4-flex{
@@ -379,7 +382,7 @@ sec-3-container span{
         width: 80%;
     }
 }
-
+/* deskttop */
 @media screen and (min-width:1160px){
     .col-sec-4{
         width: calc(100% / 3);
@@ -417,20 +420,20 @@ sec-3-container span{
     margin: 1rem 0;
     padding: .5rem 1rem;
 }
-
+/* tablet */
 @media screen and (min-width:768px){
     .sec-5-container{
         display: flex;
         width: 80%;
     }
 }
-
+/* desktop */
 @media screen and (min-width:1160px){
     .sec-5-container{
         width: 60%;
     }
 }
-
+/* sec 6 */
 .sec-6-container h3{
     font-size: 1.5em;
     color: white;
@@ -456,12 +459,13 @@ sec-3-container span{
 .sec-6-container small,a{
     color: white;
 }
+/* tablet */
 @media screen and (min-width:768px) and (max-width:1160px){
     .sec-6-container{
         width: 50%;
     }
 }
-/* sec 6 */
+/* desktop */
 @media screen and (min-width:1160px){
     .sec-6-container{
         width: 60%;
@@ -496,24 +500,3 @@ footer a{
     }
 
 }
-
-
-
-
-/* debug */
-
-.bg-blu{background-color:blue ;}
-.bg-viola{background-color:rgb(111, 0, 255) ;}
-.bg-giallo{background-color:rgb(191, 255, 0) ;}
-.bg-rosso{background-color:rgb(250, 38, 38) ;}
-.bg-verde{background-color:rgb(13, 255, 0) ;}
-.bg-arancione{background-color:rgb(255, 145, 0) ;}
-.bg-grigio{background-color:rgb(86, 86, 86) ;}
-
-/* altezze debug */
-
-.debug-h500{height: 500px;}
-.debug-h300{height: 300px;}
-.debug-h80{height: 80px;}
-
-.margin-top1{margin-top: 1rem;}
