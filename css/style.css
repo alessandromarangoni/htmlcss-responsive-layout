@@ -267,17 +267,49 @@ nav a{
         align-self: end;
     }
 }
+.sec-3-container h2{
+    color: #9792e4;
+}
+sec-3-container span{
+    font-weight: lighter;
+}
+
+.sec-3-container .violetto{
+    border-radius: 30px;
+    padding: 1rem;
+    color: white;
+}
 
 .sec-3-row .img{
     /* aprire tiket per immagine storpiata (con width e height non schiantate non funziona) */
     width: 150px;
     height: 150px;
-    background-image: url(../img/testimonial1.jpg);
     background-size: cover;
     background-position:50%;
     background-repeat: no-repeat;
     border-radius: 50%;
 }
+
+.sec-3-row .img1{
+    background-image: url(../img/testimonial1.jpg);
+}
+
+.sec-3-row .img2{
+    background-image: url(../img/testimonial2.jpg);
+}
+
+.sec-3-row .img3{
+    background-image: url(../img/testimonial3.jpg);
+}
+
+.sec-3-row i{
+    font-size: 2rem;
+}
+
+.sec-3-row p{
+    line-height: 1.5rem;
+}
+
 
 @media screen and (min-width:768px){
     .sec-3-row{
@@ -287,6 +319,15 @@ nav a{
         padding-left: 1rem;
         width: 70%;
         text-align: start;
+    }
+}
+
+@media screen and (min-width:1160px){
+    .sec-3-container .violetto{
+        width: 100%;
+        border-radius: 30px;
+        padding: 1rem;
+        color: white;
     }
 }
 
