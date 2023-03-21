@@ -280,7 +280,7 @@ sec-3-container span{
     color: white;
 }
 
-.sec-3-row .img{
+.img{
     /* aprire tiket per immagine storpiata (con width e height non schiantate non funziona) */
     width: 150px;
     height: 150px;
@@ -370,7 +370,7 @@ sec-3-container span{
         width: calc(100% / 2);
     }
     .sec-4-flex-container{
-        width: 100%;
+        width: 80%;
     }
 }
 
@@ -384,9 +384,38 @@ sec-3-container span{
     }
 }
 /* section  5 */
+.sec-5-container .img{
+    background-image: url(../img/about.jpg);
+    text-align: end;
+    font-size: 3rem;
+    color: #9792e4;
+    margin: 1rem;
+}
+
+.sec-5-container h2,h3{
+    color: #9792e4;
+}
+
+.sec-5-container p{
+    line-height: 2rem;
+    font-weight: lighter;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+
+.sec-5-container button{
+    background-color: #9792e4;
+    color: white;
+    border: 0;
+    border-radius: 30px;
+    margin: 1rem 0;
+    padding: .5rem 1rem;
+}
+
 @media screen and (min-width:768px){
     .sec-5-container{
         display: flex;
+        width: 80%;
     }
 }
 
