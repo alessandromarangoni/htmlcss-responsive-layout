@@ -333,6 +333,32 @@ sec-3-container span{
 
 /* sec 4 */
 
+.cards-sec-4{
+    border-radius: 20px;
+}
+.sec-4-flex h2{
+    font-size: 3rem;
+}
+
+.sec-4-flex h2,h3{
+    color: #9792e4;
+}
+
+.sec-4-flex p{
+    color: hsla(0, 0%, 0%, 0.5);
+}
+
+.sec-4-flex button{
+    margin-top: 1rem;
+    background-color: #9792e4;
+    color: white;
+    font-weight: 600;
+    padding: .8rem 2.5rem; 
+    border: 0;
+    border-radius: 30px;
+}
+
+
 @media screen and (min-width:768px){
 
     .sec-4-flex{
