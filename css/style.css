@@ -127,7 +127,7 @@ nav a{
     border: 0;
     padding: .5rem 1rem;
     border-radius: 20px;
-    margin-top: 1rem;
+    margin: 1rem 0;
 }
 
 .col-container h2{
@@ -224,7 +224,9 @@ nav a{
     border-radius: 30px;
     text-align: center;
 }
-
+.sec-2-right-box p{
+    font-style: italic;
+}
 .sec-2-right-box i{
     font-size: 1rem;
     background-color: #9792e4;
@@ -332,6 +334,10 @@ sec-3-container span{
 }
 
 /* sec 4 */
+.sec-4-h2{
+    color: white;
+    font-size: 2em;
+}
 
 .cards-sec-4{
     border-radius: 20px;
@@ -424,6 +430,32 @@ sec-3-container span{
         width: 60%;
     }
 }
+
+.sec-6-container h3{
+    font-size: 1.5em;
+    color: white;
+}
+.sec-6-container h2{
+    color: #fdc15f;
+    font-size: 3em;
+}
+.sec-6-container p{
+    color: white;
+}
+.sec-6-container span{
+    color: rgba(255, 255, 255, 0.689);
+}
+.sec-6-container button{
+    color: #9792e4;
+    background-color: white;
+    border: 0;
+    font-weight: 600;
+    padding: .8rem 2.5rem;
+    border-radius: 30px;
+}
+.sec-6-container small,a{
+    color: white;
+}
 @media screen and (min-width:768px) and (max-width:1160px){
     .sec-6-container{
         width: 50%;
@@ -442,6 +474,13 @@ sec-3-container span{
 }
 
 /* footer */
+footer{
+    background-color: #333333;
+    color: white;
+}
+footer a{
+    color: #9792e4;
+}
 @media screen and (min-width:768px) and (max-width:1160px){
     .footer-container{
         width: 50%;
@@ -455,6 +494,7 @@ sec-3-container span{
         width: 50%;
         margin: 0 auto;
     }
+
 }
 
 
